@@ -15,8 +15,13 @@ public class Ex01Variable {
 		System.out.println(i);
 		System.out.println(s);
 		
-		final double pi = 3.14; //상수
-		System.out.println(pi);
+		//상수
+		final double PI = 3.14; 
+		System.out.println(PI);
+		
+		//final이 붙은 변수(상수)는 다시 값을 대입하지 못한다. 
+		//PI = 3.1416; ERROR
+		
 		
 	}
 }
