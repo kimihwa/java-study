@@ -6,6 +6,12 @@ public class Goods {
 	private int countStock;
 	private int countSold;
 	
+	public static int countOfGoods = 0;
+	
+	public Goods() {
+		countOfGoods = countOfGoods + 1;
+	}
+	
 	public String getName() {
 		return name;
 	}
