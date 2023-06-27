@@ -13,6 +13,11 @@ public class SongTest {
 		
 		song.show();
 		
+		Song song2 = new Song("Love Dive", "IVE", "Jamine Parker 3명외", "Love Dive", 2022, 1);
+		song2.show();
+		
+		Song song3 = new Song("사건의 지평선", "윤하");
+		song3.show();
 	}
 
 }

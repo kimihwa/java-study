@@ -13,9 +13,9 @@ public class ArrayUtilTest {
 		int[] a2 = ArrayUtil.doubleToInt(d2);
 		System.out.println(Arrays.toString(a2));
 		
-		ArrayUtil.concat(new int[] {1, 2, 3, 4}, new int[] {5, 6, 7, 8}) {
-			System.out.println(Arrays.toString(a3));
+		int[] a3 = ArrayUtil.concat(new int[] {1, 2, 3, 4}, new int[] {5, 6, 7, 8});
+		System.out.println(Arrays.toString(a3));
 		}
 	}
 
-}
+

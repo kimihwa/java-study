@@ -12,6 +12,17 @@ public class Goods {
 		countOfGoods = countOfGoods + 1;
 	}
 	
+	public Goods(String name, int price, int countStock, int countSold) {
+		//중복 없애기 위해서 
+		this();
+		
+		this.name = name;
+		this.price = price;
+		this.countStock = countStock;
+		this.countSold = countSold;
+		
+	}
+	
 	public String getName() {
 		return name;
 	}

@@ -7,6 +7,34 @@ public class Song {
 	private String composer;
 	private int year;
 	private int track;
+	
+	// 생성자 오버로딩
+	public Song() {
+		// some code1
+		// some code2
+		// some code3
+		
+	}
+	
+	public Song(String title, String artist) {
+		//this.title = title;
+		//this.artist = artist;
+		
+		this(title, artist, "", "", 0, 0);
+	}
+	
+	public Song(String title, String artist, String album, String composer, int year, int track) {
+		//기존에 있는 생성자 호출
+		this();
+		
+		this.title = title;
+		this.artist = artist;
+		this.album = album;
+		this.composer = composer;
+		this.year = year;
+		this.track = track;
+	}
+	
 	public String getTitle() {
 		return title;
 	}
