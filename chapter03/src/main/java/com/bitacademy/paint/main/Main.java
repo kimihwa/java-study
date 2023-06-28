@@ -1,4 +1,13 @@
-package Paint;
+package com.bitacademy.paint.main;
+
+import com.bitacademy.paint.i.Drawable;
+import com.bitacademy.paint.point.ColorPoint;
+import com.bitacademy.paint.point.Point;
+import com.bitacademy.paint.shape.Circle;
+import com.bitacademy.paint.shape.Rectangle;
+import com.bitacademy.paint.shape.Shape;
+import com.bitacademy.paint.shape.Triangle;
+import com.bitacademy.paint.text.GraphicText;
 
 public class Main {
 
