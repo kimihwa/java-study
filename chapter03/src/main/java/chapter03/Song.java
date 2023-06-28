@@ -13,10 +13,13 @@ public class Song {
 		// some code1
 		// some code2
 		// some code3
-		
 	}
 	
 	public Song(String title, String artist) {
+		// some code1
+		// some code2
+		// some code3
+		
 		//this.title = title;
 		//this.artist = artist;
 		
@@ -24,7 +27,7 @@ public class Song {
 	}
 	
 	public Song(String title, String artist, String album, String composer, int year, int track) {
-		//기존에 있는 생성자 호출
+		// 수정을 위해 코드의 중복을 방지함. 리펙토링
 		this();
 		
 		this.title = title;
