@@ -8,7 +8,6 @@ public class Base {
 			night();
 		}
 	}
-	
 	public void day(){
 		System.out.println("낮");
 	}
