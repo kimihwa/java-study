@@ -8,5 +8,6 @@ public class PhoneApp {
 		phone.execute("음악");
 		phone.execute("통화");
 		phone.execute("앱");
+		
 	}
 }

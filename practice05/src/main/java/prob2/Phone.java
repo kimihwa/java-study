@@ -7,5 +7,6 @@ public class Phone {
 	
 	private void call(){
 		System.out.println( "통화기능시작" );
+		
 	}
 }
